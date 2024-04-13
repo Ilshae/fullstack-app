@@ -1,0 +1,41 @@
+.darkCalendar > .rdrDateRangeWrapper {
+  background-color: #272727;
+}
+
+//noinspection CssMissingComma
+.darkCalendar
+  > .rdrDateRangeWrapper
+  > .rdrMonthAndYearWrapper
+  > .rdrMonthAndYearPickers
+  > .rdrMonthPicker
+  > select,
+.darkCalendar
+  > .rdrDateRangeWrapper
+  > .rdrMonthAndYearWrapper
+  > .rdrMonthAndYearPickers
+  > .rdrYearPicker
+  > select {
+  color: white;
+}
+
+//noinspection CssMissingComma
+.darkCalendar
+  > .rdrDateRangeWrapper
+  > .rdrMonths
+  > .rdrMonth
+  > .rdrDays
+  > .rdrDay
+  > .rdrDayNumber
+  > span {
+  color: white;
+}
+
+//noinspection CssMissingComma
+.darkCalendar
+  > .rdrDateRangeWrapper
+  > .rdrMonths
+  > .rdrMonth
+  > .rdrDays
+  > .rdrDayDisabled {
+  background-color: #797979;
+}
